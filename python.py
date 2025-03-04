@@ -2,7 +2,7 @@ import matplotlib.pyplot as plt
 import numpy as np
 humidity3pm=[]
 Pressure9am=[]
-fpr=open("C:\\Users\\HomePC\\Downloads\\weather.csv","r")
+fpr=open("/workspaces/phython-project/weather.csv","r")
 head=fpr.readline()
 line=fpr.readline()
 while(len(line)>0):
